@@ -90,6 +90,8 @@ Visit **http://localhost:5173** in your browser.
 - `.csv` — Comma-separated values
 - `.xlsx` — Excel 2007+
 - `.xls` — Excel 97-2003
+
+
 Live : https://ai-data-analyst-application-yoi6.vercel.app/
 
 ## API Endpoints

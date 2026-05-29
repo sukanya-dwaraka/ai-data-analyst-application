@@ -36,7 +36,7 @@ export default function ChatPanel({ dataset, onResult }) {
     setShowSuggested(false)
 
     try {
-      const res = await axios.post('http://localhost:4000/api/analyze', {
+      const res = await axios.post("https://ai-data-analyst-application.onrender.com/api/analyze", {
         query: text,
         datasetId: dataset.id,
       })

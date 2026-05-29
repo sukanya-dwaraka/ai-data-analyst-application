@@ -34,7 +34,7 @@ export default function UploadModal({ onClose, onUploaded }) {
     const formData = new FormData()
     formData.append('file', file)
     try {
-      const res = await axios.post('http://localhost:4000/api/upload', formData, {
+      const res = await axios.post("https://ai-data-analyst-application.onrender.com/api/upload", formData, {
         headers: { 'Content-Type': 'multipart/form-data' },
       })
       onUploaded(res.data)

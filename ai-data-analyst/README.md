@@ -90,6 +90,7 @@ Visit **http://localhost:5173** in your browser.
 - `.csv` — Comma-separated values
 - `.xlsx` — Excel 2007+
 - `.xls` — Excel 97-2003
+Live : https://ai-data-analyst-application-yoi6.vercel.app/
 
 ## API Endpoints
 
@@ -98,3 +99,4 @@ Visit **http://localhost:5173** in your browser.
 | POST | `/api/upload` | Upload a dataset file |
 | POST | `/api/analyze` | Analyze data with a query |
 | GET | `/health` | Health check |
+
